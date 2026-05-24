@@ -1,0 +1,41 @@
+Glide version 106129 (mmshare version 69129)
+mmshare         b39c0a02be
+glide-src       21ad12d3bc
+psp-src         c8ac7e63c3
+macromodel-src  ef7960c4bf
+epik-src        936c8448ea
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Q7-0-69fade12
+Name           : 5edu_chain-A_Grid
+Program        : Glide
+Version        : 2025-1 build 129
+Host           : Q7
+Dir            : Q:\maestro\5edu_chain-A_Grid
+HostEntry      : localhost
+JobHost        : Q7
+JobDir         : C:\Users\jqy\AppData\Local\Schrodinger\tmp\5edu_chain-A_Grid
+JobSchrodinger : Q:\maestro
+Commandline    : Q:\maestro\glide.exe 5edu_chain-A_Grid.in -elements -OVERWRITE -HOST localhost -PROJ C:\Users\jqy\AppData\Local\Schrodinger\tmp\Tmp_06May2026_1117_20669 -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR
+StartTime      : 2026-05-06-14:22:12
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by   1.00000
+ Charge cutoff for polarity  0.25000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 23, 23, 23,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+Creating output grid archive '5edu_chain-A_Grid.zip'
+
+Exiting Glide
+Date: Wednesday, May 06 2026, at 14:22:45 íÜçë?èy??
+CPU time (s): 22.2 user, 7.8 system, 30.4 real
+Total elapsed time = 30 seconds
+[running at reduced cpu priority]

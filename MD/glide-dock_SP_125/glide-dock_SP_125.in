@@ -1,0 +1,4 @@
+FORCEFIELD   OPLS_2005
+GRIDFILE   /global_bigdata/yanjiaqi/5edu_chain-A_Grid/5edu_chain-A_Grid.zip
+LIGANDFILE   glide-dock_SP_125.maegz
+PRECISION   SP

@@ -1,0 +1,1 @@
+"${SCHRODINGER}/prime_mmgbsa" -OVERWRITE -prime_opt OPLS_VERSION=OPLS_2005 prime_mmgbsa_17_pv.maegz -HOST localhost:185 -NJOBS 1 -TMPLAUNCHDIR

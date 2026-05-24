@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------------
+    Prime MMGBSA v3.000
+--------------------------------------------------------------------------------
+JobId          : cadd93-0-6a054d6d
+Name           : prime_mmgbsa_17
+Program        : Prime MMGBSA v3.000
+Version        : 2023-2 build 122
+Host           : cadd93
+Dir            : /global_bigdata/yanjiaqi/prime_mmgbsa_17
+HostEntry      : localhost
+JobHost        : cadd93
+JobDir         : /home/sdr23/tmp/sdr23/prime_mmgbsa_17
+JobSchrodinger : /home/sdr23/schrodinger23-2_crack
+Commandline    : /home/sdr23/schrodinger23-2_crack/prime_mmgbsa -OVERWRITE -prime_opt OPLS_VERSION=OPLS_2005 prime_mmgbsa_17_pv.maegz -HOST localhost:185 -NJOBS 1 -PROJ /global_bigdata/yanjiaqi/93.prj -DISP append -VIEWNAME prime_mmgbsa_gui.PrimeMmgbsaPanel -TMPLAUNCHDIR
+StartTime      : 2026-05-14-12:19:58
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Optimizing Protein-Ligand Complexes
+
+   Options Passed to Prime   
+   PRIME_TYPE                               REAL_MIN                      
+    ADD_MISSING_SIDE_CHAINS                  no                            
+    ENERGY_BREAKDOWN                         yes                           
+    OPLS_VERSION                             OPLS_2005                     
+
+
+MMGBSA dG Bind: The binding energy of the receptor and ligand as calculated by
+         the Prime Energy, a Molecular Mechanics + Implicit Solvent Energy
+         Function (kcals/mol)
+       = PrimeEnergy(Optimized Complex)
+        - PrimeEnergy(Optimized Free Ligand)
+        - PrimeEnergy(Optimized Free Receptor)
+
+MMGBSA dG Bind(NS):  A version of dG Bind that does not include contributions
+         from receptor or ligand strain. (kcals/mol)
+       = PrimeEnergy(Optimized Complex)
+        - PrimeEnergy(Ligand Geometry From Optimized Complex)
+        - PrimeEnergy(Receptor Geometry From Optimized Complex)
+
+Lig Strain Energy:  A prediction of the energetic penalty due to strain between
+        the ligand in the complex and the ligand in the free state based on the
+        difference in Prime Energy (kcals/mol).
+      = PrimeEnergy(Ligand Geometry From Optimized Complex)
+       - PrimeEnergy(Optimized Free Ligand)
+
+Rec Strain Energy:  A prediction of the energetic penalty due to strain between
+        the receptor in the complex and the receptor in the free state based on
+        the difference in Prime Energy (kcals/mol).
+      = PrimeEnergy(Receptor Geometry From Optimized Complex)
+       - PrimeEnergy(Optimized Free Receptor)
+
+Logs of component Prime calculations written to prime_mmgbsa_17.Prime.log
+All Entries Succesfully Processed
+Total Time Elapsed (hours:minutes:seconds)    0:34:10
+
+
+
+
+
+

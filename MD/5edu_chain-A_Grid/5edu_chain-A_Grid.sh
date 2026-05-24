@@ -1,0 +1,1 @@
+"${SCHRODINGER}/glide" 5edu_chain-A_Grid.in -elements -OVERWRITE -HOST localhost -TMPLAUNCHDIR
